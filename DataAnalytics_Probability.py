@@ -24,7 +24,7 @@ print("Q2: Probability that a defective item came from Machine B:", P_B_given_D)
 total_fruits = 6 + 4
 prob_orange = 4 / total_fruits
 print("Q3: Probability that the fruit is an orange:", prob_orange)
-`
+
 # Q4
 # A test is 90% accurate. 1 in 100 people has a certain condition.
 # A person tests positive. What is the probability they actually have the condition?
@@ -48,7 +48,7 @@ print("Q5: Probability that an employee can code in Python or Java:", either)
 
 # Q6
 # The probability that it rains today is 0.6. The probability that you carry an umbrella given it rains is 0.9.
-# What is the probability that it rains and you carry an umbrella?
+# What is the probability that it rains, and you carry an umbrella?
 P_rain = 0.6
 P_umbrella_given_rain = 0.9
 P_rain_and_umbrella = P_rain * P_umbrella_given_rain

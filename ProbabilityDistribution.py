@@ -2,12 +2,14 @@ import numpy as np
 import scipy.stats as stats
 import matplotlib.pyplot as plt
 
-# 1. A fair six-sided die is rolled twice. Define a random variable representing the sum of the outcomes.
+# 1. A fair six-sided dice is rolled twice. Define a random variable representing the sum of the outcomes.
 #    What type of distribution does it follow?
 #    --> It follows a discrete distribution with values from 2 to 12, modeled as a discrete uniform convolution.
 dice_rolls = [i + j for i in range(1, 7) for j in range(1, 7)]
 sum_distribution = np.bincount(dice_rolls)[2:]
 print("1. Sum distribution of two dice rolls (2 to 12):", sum_distribution)
+# np.bincount() counts how many times each number occurs
+
 
 # 2. A weather station records the amount of rainfall each day.
 #    What kind of probability distribution best models this data and why?
